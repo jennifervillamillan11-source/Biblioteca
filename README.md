@@ -75,4 +75,3 @@ classDiagram
     Libro <|-- Novela : hereda
     Novela --> TipoNovela : usa
 ```
-![alt text](image.png)
