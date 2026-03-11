@@ -2,7 +2,6 @@ package biblioteca;
 
 /**
  * Clase base Libro que maneja la información de un libro en la biblioteca.
- * Aplica principios de encapsulamiento con atributos privados y métodos get/set.
  */
 public class Libro {
     // Atributos encapsulados
