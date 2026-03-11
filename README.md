@@ -75,3 +75,40 @@ classDiagram
     Libro <|-- Novela : hereda
     Novela --> TipoNovela : usa
 ```
+
+## Guia de uso
+
+Este proyecto se ejecuta por consola y muestra un ejemplo de uso de las clases
+del sistema de biblioteca. No tiene menu interactivo; los datos de ejemplo se
+configuran en `Main.java`.
+
+### Requisitos
+
+- Java 11 (JDK)
+- Maven
+
+### Ejecutar con Maven
+
+```bash
+mvn -q compile exec:java
+```
+
+Si quieres ver el comando completo sin `-q`, usa:
+
+```bash
+mvn compile exec:java
+```
+
+### Que hace el programa
+
+Al ejecutar, se imprimen en consola:
+
+- Un libro general, con prestamo y devolucion.
+- Un libro de texto.
+- Un libro de texto UNIAC.
+- Una novela con su tipo.
+- Un ciclo que intenta prestar hasta agotar ejemplares.
+
+### Cambiar los datos de ejemplo
+
+Edita las instancias dentro de `Main.java` y vuelve a ejecutar con Maven.
