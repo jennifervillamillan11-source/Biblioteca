@@ -8,13 +8,13 @@ public class Main {
         // se crean instancias para el funcionamiento del programa 
 
         // Libro general
-        Libro libroG = new Libro("ventajas de ser invisible", "Stephen Chbosky", 10, 2);
+        Libro libroGeneral = new Libro("ventajas de ser invisible", "Stephen Chbosky", 10, 2);
         System.out.println("Libro general:");
-        System.out.println(libroG);
-        System.out.println("Préstamo exitoso: " + libroG.prestamo());
-        System.out.println("Después del préstamo: " + libroG);
-        System.out.println("Devolución exitosa: " + libroG.devolucion());
-        System.out.println("Después de la devolución: " + libroG);
+        System.out.println(libroGeneral);
+        System.out.println("Préstamo exitoso: " + libroGeneral.prestamo());
+        System.out.println("Después del préstamo: " + libroGeneral);
+        System.out.println("Devolución exitosa: " + libroGeneral.devolucion());
+        System.out.println("Después de la devolución: " + libroGeneral);
         System.out.println();
 
         // Libro de texto
